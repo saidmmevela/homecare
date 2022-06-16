@@ -68,7 +68,7 @@ import PageHeaders from "layouts/sections/page-sections/page-headers";
 // import Toggles from "layouts/sections/elements/toggles";
 // import Typography from "layouts/sections/elements/typography";
 
-const router = [
+const routes = [
   {
     name: "testimonial",
     icon: <Icon>view_day</Icon>,
@@ -89,4 +89,4 @@ const router = [
   },
 ];
 
-export default router;
+export default routes;
