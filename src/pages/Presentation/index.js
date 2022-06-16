@@ -42,11 +42,22 @@ import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import React, { useState, useEffect } from "react";
 
 // Images
 import bgImage from "assets/images/bg-presentation.jpg";
 
 function Presentation() {
+  const [head, setHeads] = useState([]);
+  const fetchPost = async () => {
+    const response = await fetch("https://homecareapiapps.herokuapp.com/api/getheader/");
+    const data = await response.json();
+    setHeads(data[0]);
+  };
+
+  useEffect(() => {
+    fetchPost();
+  }, []);
   return (
     <>
       <DefaultNavbar
@@ -83,7 +94,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Welcome to FH-Medics
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +103,7 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              {head.description}
             </MKTypography>
           </Grid>
         </Container>

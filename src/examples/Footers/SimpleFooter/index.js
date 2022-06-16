@@ -106,12 +106,12 @@ function SimpleFooter({ company, links, light }) {
 
 // Setting default values for the props of SimpleFooter
 SimpleFooter.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Said Mmevela" },
+  company: { href: "https://homemedic.herokuapp.com/", name: "Said Mmevela" },
   links: [
-    { href: "https://www.creative-tim.com/", name: "Creative Tim" },
-    { href: "https://www.creative-tim.com/presentation", name: "About Us" },
-    { href: "https://www.creative-tim.com/blog", name: "Blog" },
-    { href: "https://www.creative-tim.com/license", name: "License" },
+    { href: "https://homemedic.herokuapp.com/", name: "Creative Tim" },
+    { href: "https://homemedic.herokuapp.com/pages/landing-pages/about-us", name: "About Us" },
+    { href: "https://homemedic.herokuapp.com", name: "Blog" },
+    { href: "https://homemedic.herokuapp.com", name: "License" },
   ],
   light: false,
 };
