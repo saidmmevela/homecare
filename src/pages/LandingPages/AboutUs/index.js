@@ -36,7 +36,7 @@ import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 // Images
 import bgImage from "assets/images/bg-about-us.jpeg";
