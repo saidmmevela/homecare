@@ -44,8 +44,8 @@ function BaseLayout({ breadcrumb, title, children }) {
           //   label: "free download",
           //   color: "info",
           // }}
-          transparent
-          relative
+          // transparent
+          // relative
         />
       </MKBox>
       <Container sx={{ mt: 6 }}>

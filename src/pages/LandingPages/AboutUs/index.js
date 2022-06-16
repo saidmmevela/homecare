@@ -36,11 +36,23 @@ import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
+import React,{ useState, useEffect } from "react";
 
 // Images
 import bgImage from "assets/images/bg-about-us.jpeg";
 
 function AboutUs() {
+  const [head, setHeads] = useState([]);
+  const fetchPost = async () => {
+    const response = await fetch("https://homecareapiapps.herokuapp.com/api/getheader/");
+    const data = await response.json();
+    setHeads(data[0]);
+  };
+
+  useEffect(() => {
+    fetchPost();
+  }, []);
+
   return (
     <>
       <DefaultNavbar
@@ -89,16 +101,15 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              Allow US To Give Proper Service
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              {head.description}
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
             </MKButton>
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
+            {/* <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
@@ -114,7 +125,7 @@ function AboutUs() {
               <MKTypography component="a" variant="body1" color="white" href="#">
                 <i className="fab fa-google-plus" />
               </MKTypography>
-            </MKBox>
+            </MKBox> */}
           </Grid>
         </Container>
       </MKBox>
