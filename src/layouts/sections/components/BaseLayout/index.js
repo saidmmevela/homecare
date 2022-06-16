@@ -44,7 +44,7 @@ function BaseLayout({ breadcrumb, title, children }) {
           //   label: "free download",
           //   color: "info",
           // }}
-           transparent
+          transparent
           //  relative
         />
       </MKBox>
