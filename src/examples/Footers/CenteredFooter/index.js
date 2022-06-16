@@ -32,8 +32,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function CenteredFooter({ company, links, socials, light }) {
-  const { href, name } = company;
+function CenteredFooter({ links, socials, light }) {
+  // const { href, name } = company;
 
   const year = new Date().getFullYear();
 
