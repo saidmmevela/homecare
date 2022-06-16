@@ -75,7 +75,7 @@ export default {
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
       All rights reserved. Copyright &copy; {date} FH-Medics by Said Mmevela
-      <MKTypography
+      {/* <MKTypography
         component="a"
         href="https://www.creative-tim.com"
         target="_blank"
@@ -84,7 +84,7 @@ export default {
         fontWeight="regular"
       >
         Creative Tim
-      </MKTypography>
+      </MKTypography> */}
       .
     </MKTypography>
   ),

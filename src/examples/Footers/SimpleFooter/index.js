@@ -106,7 +106,7 @@ function SimpleFooter({ company, links, light }) {
 
 // Setting default values for the props of SimpleFooter
 SimpleFooter.defaultProps = {
-  company: { href: "https://www.creative-tim.com/", name: "Creative Tim" },
+  company: { href: "https://www.creative-tim.com/", name: "Said Mmevela" },
   links: [
     { href: "https://www.creative-tim.com/", name: "Creative Tim" },
     { href: "https://www.creative-tim.com/presentation", name: "About Us" },
