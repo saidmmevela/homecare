@@ -25,7 +25,8 @@ import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+// import DefaultFooter from "examples/Footers/DefaultFooter";
+import CenteredFooter from "examples/Footers/CenteredFooter";
 
 // About Us page sections
 import Information from "pages/LandingPages/AboutUs/sections/Information";
@@ -35,7 +36,7 @@ import Team from "pages/LandingPages/AboutUs/sections/Team";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
+// import footerRoutes from "footer.routes";
 import React, { useState, useEffect } from "react";
 
 // Images
@@ -144,7 +145,7 @@ function AboutUs() {
         <Newsletter /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
+        <CenteredFooter />
       </MKBox>
     </>
   );
