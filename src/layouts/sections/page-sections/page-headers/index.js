@@ -20,7 +20,7 @@ Coded by www.creative-tim.com
 
 // Sections components
 import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+// import View from "layouts/sections/components/View";
 
 // PageHeaders page components
 // import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
@@ -28,7 +28,7 @@ import Team from "layouts/sections/page-sections/page-headers/components/HeaderO
 import Testimonials from "layouts/sections/page-sections/page-headers/components/HeaderOne/Testimonials";
 
 // PageHeaders page components code
-import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
+// import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
 
 function PageHeaders() {
   return (
