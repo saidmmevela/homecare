@@ -45,6 +45,7 @@ function BaseLayout({ breadcrumb, title, children }) {
           //   color: "info",
           // }}
           transparent
+          light
           relative
         />
       </MKBox>
