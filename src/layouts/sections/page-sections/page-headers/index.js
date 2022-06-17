@@ -25,6 +25,7 @@ import View from "layouts/sections/components/View";
 // PageHeaders page components
 // import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
 import Team from "layouts/sections/page-sections/page-headers/components/HeaderOne/Team";
+import Testimonials from "layouts/sections/page-sections/page-headers/components/HeaderOne/Testimonials";
 
 // PageHeaders page components code
 import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
@@ -32,15 +33,16 @@ import headerOneCode from "layouts/sections/page-sections/page-headers/component
 function PageHeaders() {
   return (
     <BaseLayout
-      title="Page Headers"
+      title="Testimonial"
       breadcrumb={[
         { label: "Page Sections", route: "/sections/page-sections/page-headers" },
-        { label: "Page Headers" },
+        { label: "Testimonial" },
       ]}
     >
-      <View title="Header 1" code={headerOneCode} height="40rem">
-        <Team />
-      </View>
+      {/* <View title="Header 1" code={headerOneCode} height="40rem"> */}
+      <Team />
+      <Testimonials />
+      {/* </View> */}
     </BaseLayout>
   );
 }

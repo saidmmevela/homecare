@@ -41,36 +41,36 @@ export default {
       name: "company",
       items: [
         { name: "about us", href: "https://homemedic.herokuapp.com/pages/landing-pages/about-us" },
-        { name: "freebies", href: "https://homemedic.herokuapp.com/" },
-        { name: "premium tools", href: "https://homemedic.herokuapp.com/" },
-        { name: "blog", href: "https://homemedic.herokuapp.com/" },
+        // { name: "freebies", href: "https://homemedic.herokuapp.com/" },
+        // { name: "premium tools", href: "https://homemedic.herokuapp.com/" },
+        // { name: "blog", href: "https://homemedic.herokuapp.com/" },
       ],
     },
-    {
-      name: "resources",
-      items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://homemedic.herokuapp.com/" },
-        { name: "affiliate program", href: "https://homemedic.herokuapp.com/" },
-      ],
-    },
-    {
-      name: "help & support",
-      items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://homemedic.herokuapp.com/" },
-        { name: "custom development", href: "https://homemedic.herokuapp.com/" },
-        { name: "sponsorships", href: "https://homemedic.herokuapp.com/" },
-      ],
-    },
-    {
-      name: "legal",
-      items: [
-        { name: "terms & conditions", href: "https://homemedic.herokuapp.com/" },
-        { name: "privacy policy", href: "https://homemedic.herokuapp.com/" },
-        { name: "licenses (EULA)", href: "https://homemedic.herokuapp.com/" },
-      ],
-    },
+    // {
+    //   name: "resources",
+    //   items: [
+    //     { name: "illustrations", href: "https://iradesign.io/" },
+    //     { name: "bits & snippets", href: "https://homemedic.herokuapp.com/" },
+    //     { name: "affiliate program", href: "https://homemedic.herokuapp.com/" },
+    //   ],
+    // },
+    // {
+    //   name: "help & support",
+    //   items: [
+    //     { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
+    //     { name: "knowledge center", href: "https://homemedic.herokuapp.com/" },
+    //     { name: "custom development", href: "https://homemedic.herokuapp.com/" },
+    //     { name: "sponsorships", href: "https://homemedic.herokuapp.com/" },
+    //   ],
+    // },
+    // {
+    //   name: "legal",
+    //   items: [
+    //     { name: "terms & conditions", href: "https://homemedic.herokuapp.com/" },
+    //     { name: "privacy policy", href: "https://homemedic.herokuapp.com/" },
+    //     { name: "licenses (EULA)", href: "https://homemedic.herokuapp.com/" },
+    //   ],
+    // },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
