@@ -23,7 +23,8 @@ import BaseLayout from "layouts/sections/components/BaseLayout";
 import View from "layouts/sections/components/View";
 
 // PageHeaders page components
-import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
+// import HeaderOne from "layouts/sections/page-sections/page-headers/components/HeaderOne";
+import Team from "layouts/sections/page-sections/page-headers/components/HeaderOne/Team";
 
 // PageHeaders page components code
 import headerOneCode from "layouts/sections/page-sections/page-headers/components/HeaderOne/code";
@@ -38,7 +39,7 @@ function PageHeaders() {
       ]}
     >
       <View title="Header 1" code={headerOneCode} height="40rem">
-        <HeaderOne />
+        <Team />
       </View>
     </BaseLayout>
   );
