@@ -42,9 +42,8 @@ import Information from "pages/Presentation/sections/Information";
 
 // Routes
 import routes from "routes";
-import footerRoutes from "footer.routes";
+// import footerRoutes from "footer.routes";
 import React, { useState, useEffect } from "react";
-
 
 // Images
 import bgImage from "assets/images/bg-presentation.jpg";
